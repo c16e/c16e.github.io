@@ -1,0 +1,16 @@
+{% if post.author %}
+  {% assign author = post.author %}
+{% elsif page.author %}
+  {% assign author = page.author %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+{% if author %}
+    {% if author == "reoring" %}
+        <div class="author-card">
+        </div>
+    {% elsif author == "suin" %}
+        <div class="author-card">
+        </div>
+    {% endif %}
+{% endif %}

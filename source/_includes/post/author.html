@@ -5,4 +5,16 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
-{% if author %}<span class="byline author vcard">Posted by <span class="fn">{{ author }}</span></span>{% endif %}
+
+{% if author == "reoring" %}
+    {% assign author_name = "Reo Mori" %}
+{% elsif author == "suin" %}
+    {% assign author_name = "Hidehito Nozawa" %}
+{% endif %}
+
+<div class="top-author-meta">
+    <img src="/images/author/{{ author }}.jpg" class="author-avatar">
+    <time>Posted on {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}</time>
+    <div>Written by {{ author_name }}</div>
+</div>
+
