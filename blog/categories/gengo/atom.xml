@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: gengo | Craftsman Software Blog]]></title>
+  <link href="http://blog.craftsman-software.com/blog/categories/gengo/atom.xml" rel="self"/>
+  <link href="http://blog.craftsman-software.com/"/>
+  <updated>2013-11-15T19:17:36+09:00</updated>
+  <id>http://blog.craftsman-software.com/</id>
+  <author>
+    <name><![CDATA[株式会社クラフトマンソフトウェア]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[吉祥寺でGitHubとGengoの方に会ってきました]]></title>
+    <link href="http://blog.craftsman-software.com/blog/2013/11/07/github-gengo/"/>
+    <updated>2013-11-07T00:16:00+09:00</updated>
+    <id>http://blog.craftsman-software.com/blog/2013/11/07/github-gengo</id>
+    <content type="html"><![CDATA[<p>今日は<a href="https://www.facebook.com/naotaka.j.hotta">堀田さん</a>にお誘いいただき、GitHubのエンジニアをまじえ吉祥寺で飲む会に誘われて行ってきた。会ったGitHubのエンジニアには日本が好きで日本に住んでる人がいて、どんなふうに働いているのか聞いてみた。</p>
+
+<p>まず、ノルマがないということ。働く時間もいつ休むかも自分で決められる。</p>
+
+<p>監視もデッドラインもない。だらけようと思ったら、だらけられる仕組みだから、なにがモチベーションを高めているのか聞いたら、仕事が面白いからとシンプルにこたえてくれた。</p>
+
+<p>タスクも自分で決めて自分で進める。てっきりバグトラッカーやイシューリストの中からピックアップしてやってるのかと思って、「タスクは誰かが決めているのですか？」と聞いたら「あなたたちはスタートアップだけど上司とかいるの？いないでしょ。それと同じだよ」と言われて自立的な組織だなと思った。</p>
+
+<p>自分たちでタスクを決めらるとしたら、全体の方針はどうやって決めているのか気になったが、なんと二年に一度、全員が一同にかいして、方向性を話し合う全体会議をやってるらしい。</p>
+
+<p>また、GengoのCTOのマシューさんからも話を聞けた。Gengoはアメリカ、日本、シンガポール、ヨーロッパにチームが分散している。では、どうやってコミュニケーションしているのか、時差もあるし、ネットごしでチームがバラバラになったりしないのか聞いてみた。</p>
+
+<p>連絡のリズムさえ取れれば問題ないとのこと。例えば、朝にSkypeでミーティングするなど。</p>
+
+<p>あと、面白いと思ったのがワームホールという取り組み。アメリカと日本のオフィスの壁に40インチくらいのでっかいモニターを貼っつけて、お互いのオフィスの映像を24時間流し続けている。オフィスの様子や誰がオフィスにいるかもわかるし、休憩のときに手をふって遊んだりしてコミュニケーションをとっていると言っていた。</p>
+
+<p>今日はとても刺激的なはなしを聞けて良かった！英語もっとはなせるようになりたい。</p>
+]]></content>
+  </entry>
+  
+</feed>

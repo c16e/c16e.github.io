@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octpressを初めてみました - Craftsman Software Blog</title>
+  <title>吉祥寺でGitHubとGengoの方に会ってきました - Craftsman Software Blog</title>
   <meta name="author" content="株式会社クラフトマンソフトウェア">
 
   
-  <meta name="description" content="BlogをOctpressで書き始めてみる http://octopress.org/ 記事作成 1
-bundle exec rake new_post プレビュー 1
-bundle exec rake preview デプロイ 1
-bundle exec rake deploy &hellip;">
+  <meta name="description" content="今日は堀田さんにお誘いいただき、GitHubのエンジニアをまじえ吉祥寺で飲む会に誘われて行ってきた。会ったGitHubのエンジニアには日本が好きで日本に住んでる人がいて、どんなふうに働いているのか聞いてみた。 まず、ノルマがないということ。働く時間もいつ休むかも自分で決められる。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@ bundle exec rake deploy &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.craftsman-software.com/blog/2013/07/19/test2/">
+  <link rel="canonical" href="http://blog.craftsman-software.com/blog/2013/11/07/github-gengo/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -69,7 +66,7 @@ bundle exec rake deploy &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Octpressを初めてみました</h1>
+      <h1 class="entry-title">吉祥寺でGitHubとGengoの方に会ってきました</h1>
     
     
       <p class="meta">
@@ -89,7 +86,7 @@ bundle exec rake deploy &hellip;">
 
 
 <div class="top-author-meta">
-    <img src="/images/author/reoring.jpg" class="author-avatar">
+    <img src="/images/author/suin.jpg" class="author-avatar">
     <time>Posted on 
 
 
@@ -102,69 +99,42 @@ bundle exec rake deploy &hellip;">
   
 
 
-<time datetime="2013-07-19T19:16:00+09:00" pubdate data-updated="true">Jul 19<span>th</span>, 2013</time></time>
-    <div>Written by Reo Mori</div>
+<time datetime="2013-11-07T00:16:00+09:00" pubdate data-updated="true">Nov 7<span>th</span>, 2013</time></time>
+    <div>Written by Hidehito Nozawa</div>
 </div>
 
 
 
 
-<div class="entry-content"><p>BlogをOctpressで書き始めてみる</p>
+<div class="entry-content"><p>今日は<a href="https://www.facebook.com/naotaka.j.hotta">堀田さん</a>にお誘いいただき、GitHubのエンジニアをまじえ吉祥寺で飲む会に誘われて行ってきた。会ったGitHubのエンジニアには日本が好きで日本に住んでる人がいて、どんなふうに働いているのか聞いてみた。</p>
 
-<p><a href="http://octopress.org/">http://octopress.org/</a></p>
+<p>まず、ノルマがないということ。働く時間もいつ休むかも自分で決められる。</p>
 
-<h2>記事作成</h2>
+<p>監視もデッドラインもない。だらけようと思ったら、だらけられる仕組みだから、なにがモチベーションを高めているのか聞いたら、仕事が面白いからとシンプルにこたえてくれた。</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake new_post
-</span></code></pre></td></tr></table></div></figure>
+<p>タスクも自分で決めて自分で進める。てっきりバグトラッカーやイシューリストの中からピックアップしてやってるのかと思って、「タスクは誰かが決めているのですか？」と聞いたら「あなたたちはスタートアップだけど上司とかいるの？いないでしょ。それと同じだよ」と言われて自立的な組織だなと思った。</p>
 
+<p>自分たちでタスクを決めらるとしたら、全体の方針はどうやって決めているのか気になったが、なんと二年に一度、全員が一同にかいして、方向性を話し合う全体会議をやってるらしい。</p>
 
-<h2>プレビュー</h2>
+<p>また、GengoのCTOのマシューさんからも話を聞けた。Gengoはアメリカ、日本、シンガポール、ヨーロッパにチームが分散している。では、どうやってコミュニケーションしているのか、時差もあるし、ネットごしでチームがバラバラになったりしないのか聞いてみた。</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake preview
-</span></code></pre></td></tr></table></div></figure>
+<p>連絡のリズムさえ取れれば問題ないとのこと。例えば、朝にSkypeでミーティングするなど。</p>
 
+<p>あと、面白いと思ったのがワームホールという取り組み。アメリカと日本のオフィスの壁に40インチくらいのでっかいモニターを貼っつけて、お互いのオフィスの映像を24時間流し続けている。オフィスの様子や誰がオフィスにいるかもわかるし、休憩のときに手をふって遊んだりしてコミュニケーションをとっていると言っていた。</p>
 
-<h2>デプロイ</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake deploy
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>コメント欄をつける</h2>
-
-<p>_config.ymlに下記行を追加</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">disqus_short_name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">reoring</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>はてなブックマークをシェア部分に追加</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'> <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">&quot;float:left&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://b.hatena.ne.jp/entry/{{ page.url }}&quot;</span> <span class="na">class=</span><span class="s">&quot;hatena-bookmark-button&quot;</span> <span class="na">data-hatena-bookmark-layout=</span><span class="s">&quot;standard&quot;</span> <span class="na">title=</span><span class="s">&quot;このエントリーをはてなブックマークに追加&quot;</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">&quot;http://b.st-hatena.com/images/entry-button/button-only.gif&quot;</span> <span class="na">alt=</span><span class="s">&quot;このエントリーをはてなブックマークに追加&quot;</span> <span class="na">width=</span><span class="s">&quot;20&quot;</span> <span class="na">height=</span><span class="s">&quot;20&quot;</span> <span class="na">style=</span><span class="s">&quot;border: none;&quot;</span> <span class="nt">/&gt;&lt;/a&gt;</span>
-</span><span class='line'>   <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src=</span><span class="s">&quot;http://b.st-hatena.com/js/bookmark_button.js&quot;</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span> <span class="na">async=</span><span class="s">&quot;async&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
-</span><span class='line'> <span class="nt">&lt;/div&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Octpressのテンプレートエンジンのプレースホルダーをエスケープする</h2>
-
-<p>Octpressでは、 {{ page.url }}  といった変数が使えるのですが、これそのものを記事にしたいときは、&#8221;&ldquo;でエスケープします。</p>
+<p>今日はとても刺激的なはなしを聞けて良かった！英語もっとはなせるようになりたい。</p>
 </div>
 
 
   <footer>
     <p class="meta">
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/gengo/'>gengo</a>, <a class='category' href='/blog/categories/github/'>github</a>
+  
+</span>
 
 
     </p>
@@ -181,11 +151,11 @@ bundle exec rake deploy &hellip;">
     
       <div class="sharing">
     <div style="float: left; margin-right: 10px;">
-        <a href="http://b.hatena.ne.jp/entry//blog/2013/07/19/test2/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+        <a href="http://b.hatena.ne.jp/entry//blog/2013/11/07/github-gengo/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
         <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
     </div>
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.craftsman-software.com/blog/2013/07/19/test2/" data-via="" data-counturl="http://blog.craftsman-software.com/blog/2013/07/19/test2/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.craftsman-software.com/blog/2013/11/07/github-gengo/" data-via="" data-counturl="http://blog.craftsman-software.com/blog/2013/11/07/github-gengo/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -198,8 +168,10 @@ bundle exec rake deploy &hellip;">
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2013/08/03/packer-intro/" title="Previous Post: Packerを使ってOSの基礎イメージを作る">&laquo; Packerを使ってOSの基礎イメージを作る</a>
       
-        <a class="basic-alignment right" href="/blog/2013/07/19/nfs-cookbook/" title="Next Post: NFS CookbookをWheezyに対応させる">NFS CookbookをWheezyに対応させる &raquo;</a>
+      
+        <a class="basic-alignment right" href="/blog/2013/11/15/shouldbee/" title="Next Post: ShouldBeeの近況について">ShouldBeeの近況について &raquo;</a>
       
     </p>
   </footer>
@@ -272,8 +244,8 @@ bundle exec rake deploy &hellip;">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.craftsman-software.com/blog/2013/07/19/test2/';
-        var disqus_url = 'http://blog.craftsman-software.com/blog/2013/07/19/test2/';
+        var disqus_identifier = 'http://blog.craftsman-software.com/blog/2013/11/07/github-gengo/';
+        var disqus_url = 'http://blog.craftsman-software.com/blog/2013/11/07/github-gengo/';
         var disqus_script = 'embed.js';
       
     (function () {

@@ -2,31 +2,39 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://blog.craftsman-software.com/blog/2013/07/19/test2/</loc>
-        <lastmod>2013-11-05T14:17:50+09:00</lastmod>
+        <lastmod>2013-11-15T16:51:13+09:00</lastmod>
     </url>
     <url>
         <loc>http://blog.craftsman-software.com/blog/2013/07/19/nfs-cookbook/</loc>
-        <lastmod>2013-11-05T14:17:50+09:00</lastmod>
+        <lastmod>2013-11-15T16:51:13+09:00</lastmod>
     </url>
     <url>
         <loc>http://blog.craftsman-software.com/blog/2013/07/20/veewee-wheezy/</loc>
-        <lastmod>2013-11-05T14:17:50+09:00</lastmod>
+        <lastmod>2013-11-15T16:51:13+09:00</lastmod>
     </url>
     <url>
         <loc>http://blog.craftsman-software.com/blog/2013/07/20/chef-vagrant-handson/</loc>
-        <lastmod>2013-11-05T14:17:50+09:00</lastmod>
+        <lastmod>2013-11-15T16:51:13+09:00</lastmod>
     </url>
     <url>
         <loc>http://blog.craftsman-software.com/blog/2013/08/03/packer-intro/</loc>
-        <lastmod>2013-11-05T14:17:50+09:00</lastmod>
+        <lastmod>2013-11-15T16:51:13+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.craftsman-software.com/blog/2013/11/07/github-gengo/</loc>
+        <lastmod>2013-11-15T16:51:13+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.craftsman-software.com/blog/2013/11/15/shouldbee/</loc>
+        <lastmod>2013-11-15T19:17:35+09:00</lastmod>
     </url>
     <url>
         <loc>http://blog.craftsman-software.com/blog/archives/</loc>
-        <lastmod>2013-11-05T14:17:50+09:00</lastmod>
+        <lastmod>2013-11-15T19:17:35+09:00</lastmod>
     </url>
     <url>
         <loc>http://blog.craftsman-software.com/</loc>
-        <lastmod>2013-11-05T14:17:50+09:00</lastmod>
+        <lastmod>2013-11-15T19:17:35+09:00</lastmod>
     </url>
     <url>
         <loc>http://blog.craftsman-software.com/robots.txt</loc>
