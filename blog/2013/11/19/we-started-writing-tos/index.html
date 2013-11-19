@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octpressを初めてみました - Craftsman Software Blog</title>
+  <title>ShouldBee利用規約のドラフトを作ってみました - Craftsman Software Blog</title>
   <meta name="author" content="株式会社クラフトマンソフトウェア">
 
   
-  <meta name="description" content="BlogをOctpressで書き始めてみる http://octopress.org/ 記事作成 1
-bundle exec rake new_post プレビュー 1
-bundle exec rake preview デプロイ 1
-bundle exec rake deploy &hellip;">
+  <meta name="description" content="トライアル開始に向けて、ShouldBeeの利用規約・プライバシーポリシーの準備を進めています。利用規約・プライバシーポリシーともドラフトができたので、AZXの弁護士の方にレビューをお願いしました。AZXさんはednityの見竜さんから紹介です。下記書籍の著者でもあります。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@ bundle exec rake deploy &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.craftsman-software.com/blog/2013/07/19/test2/">
+  <link rel="canonical" href="http://blog.craftsman-software.com/blog/2013/11/19/we-started-writing-tos/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -69,7 +66,7 @@ bundle exec rake deploy &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Octpressを初めてみました</h1>
+      <h1 class="entry-title">ShouldBee利用規約のドラフトを作ってみました</h1>
     
     
       <p class="meta">
@@ -89,7 +86,7 @@ bundle exec rake deploy &hellip;">
 
 
 <div class="top-author-meta">
-    <img src="/images/author/reoring.jpg" class="author-avatar">
+    <img src="/images/author/suin.jpg" class="author-avatar">
     <time>Posted on 
 
 
@@ -102,63 +99,28 @@ bundle exec rake deploy &hellip;">
   
 
 
-<time datetime="2013-07-19T19:16:00+09:00" pubdate data-updated="true">Jul 19<span>th</span>, 2013</time></time>
-    <div>Written by Reo Mori</div>
+<time datetime="2013-11-19T18:01:00+09:00" pubdate data-updated="true">Nov 19<span>th</span>, 2013</time></time>
+    <div>Written by Hidehito Nozawa</div>
 </div>
 
 
 
 
-<div class="entry-content"><p>BlogをOctpressで書き始めてみる</p>
+<div class="entry-content"><p><img src="https://s3-ap-northeast-1.amazonaws.com/c16e/blog/2013/1119/2.jpg" alt="" /></p>
 
-<p><a href="http://octopress.org/">http://octopress.org/</a></p>
+<p>トライアル開始に向けて、ShouldBeeの利用規約・プライバシーポリシーの準備を進めています。利用規約・プライバシーポリシーともドラフトができたので、AZXの弁護士の方にレビューをお願いしました。AZXさんは<a href="http://www.ednity.com/">ednity</a>の<a href="https://www.facebook.com/kenryu.sato">見竜</a>さんから紹介です。下記書籍の著者でもあります。</p>
 
-<h2>記事作成</h2>
+<p>利用規約作成は初めてでもあり、いちから自分たちで書くと大変だったので、僕らは<a href="http://www.amazon.co.jp/dp/4774155942">『良いウェブサービスを支える「利用規約」の作り方』</a>に付録でついている利用規約のテンプレートをベースに作り始めました。もちろん、テンプレートのままではShouldBeeにそのまま使えそうにありませんでした。</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake new_post
-</span></code></pre></td></tr></table></div></figure>
+<p>まず、テンプレートはユーザが投稿したデータの著作権を僕らが自由にしてもいい内容でした。ShouldBeeに当てはめると、ユーザが入力したテストシナリオを転用していいということになります。しかし、テストシナリオは機密情報である可能性があり、僕らがそれを自由にできるとなると、ユーザからの理解が得られないと考え、ドラフトからは削ることにしました。</p>
 
+<p>ShouldBeeはユーザが入力したテスト以外のデータも扱います。例えば、テストを実施するときのテスト対象システムのHTMLやHTTPレスポンスなどがそうです。これも、サービスとして守らなければならないデータです。ユーザとしても、「これらのデータを責任をもって守ります」と規約に書いてあることで、安心感が得られると思います。そこで、他のBtoBのSaaSの利用規約を参考にしながら、規約のひな形にテスト対象システムの情報の扱いを加えました。</p>
 
-<h2>プレビュー</h2>
+<p>一方で、テストシナリオやテスト対象システムの情報が機密だとしても、ユーザがサポートを求めるときに、どうしてそれらのデータを閲覧したり編集したりすることも有りそうだと考えました。規約のためにサポートが遠回りになってしまってはならないので、ユーザの許可を得た場合や、サポートやメンテナンスが必要なときに限って、閲覧したり編集したりしてもいいという内容も加えました。</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake preview
-</span></code></pre></td></tr></table></div></figure>
+<p>利用規約を作成するときは、似たようなサービスの利用規約にどんなことが書いてあるか参考にするケースが多いようです。しかし、ShouldBeeの場合は、なかなか似たようなサービスがなく、結局思いつく BtoB のサービスの利用規約をかたっぱしから読んでみて参考にしました。</p>
 
-
-<h2>デプロイ</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>bundle <span class="nb">exec </span>rake deploy
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>コメント欄をつける</h2>
-
-<p>_config.ymlに下記行を追加</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">disqus_short_name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">reoring</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>はてなブックマークをシェア部分に追加</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'> <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">&quot;float:left&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://b.hatena.ne.jp/entry/{{ page.url }}&quot;</span> <span class="na">class=</span><span class="s">&quot;hatena-bookmark-button&quot;</span> <span class="na">data-hatena-bookmark-layout=</span><span class="s">&quot;standard&quot;</span> <span class="na">title=</span><span class="s">&quot;このエントリーをはてなブックマークに追加&quot;</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">&quot;http://b.st-hatena.com/images/entry-button/button-only.gif&quot;</span> <span class="na">alt=</span><span class="s">&quot;このエントリーをはてなブックマークに追加&quot;</span> <span class="na">width=</span><span class="s">&quot;20&quot;</span> <span class="na">height=</span><span class="s">&quot;20&quot;</span> <span class="na">style=</span><span class="s">&quot;border: none;&quot;</span> <span class="nt">/&gt;&lt;/a&gt;</span>
-</span><span class='line'>   <span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src=</span><span class="s">&quot;http://b.st-hatena.com/js/bookmark_button.js&quot;</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span> <span class="na">async=</span><span class="s">&quot;async&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
-</span><span class='line'> <span class="nt">&lt;/div&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Octpressのテンプレートエンジンのプレースホルダーをエスケープする</h2>
-
-<p>Octpressでは、 {{ page.url }}  といった変数が使えるのですが、これそのものを記事にしたいときは、&#8221;&ldquo;でエスケープします。</p>
+<p>今後、弁護士さんのほうからレビューが上がってきて、何度かやりとりをして利用規約を固めていくことになります。</p>
 </div>
 
 
@@ -181,11 +143,11 @@ bundle exec rake deploy &hellip;">
     
       <div class="sharing">
     <div style="float: left; margin-right: 10px;">
-        <a href="http://b.hatena.ne.jp/entry//blog/2013/07/19/test2/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+        <a href="http://b.hatena.ne.jp/entry//blog/2013/11/19/we-started-writing-tos/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
         <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
     </div>
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.craftsman-software.com/blog/2013/07/19/test2/" data-via="" data-counturl="http://blog.craftsman-software.com/blog/2013/07/19/test2/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.craftsman-software.com/blog/2013/11/19/we-started-writing-tos/" data-via="" data-counturl="http://blog.craftsman-software.com/blog/2013/11/19/we-started-writing-tos/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -198,8 +160,8 @@ bundle exec rake deploy &hellip;">
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2013/11/15/shouldbee/" title="Previous Post: ShouldBeeの近況について">&laquo; ShouldBeeの近況について</a>
       
-        <a class="basic-alignment right" href="/blog/2013/07/19/nfs-cookbook/" title="Next Post: NFS CookbookをWheezyに対応させる">NFS CookbookをWheezyに対応させる &raquo;</a>
       
     </p>
   </footer>
@@ -272,8 +234,8 @@ bundle exec rake deploy &hellip;">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.craftsman-software.com/blog/2013/07/19/test2/';
-        var disqus_url = 'http://blog.craftsman-software.com/blog/2013/07/19/test2/';
+        var disqus_identifier = 'http://blog.craftsman-software.com/blog/2013/11/19/we-started-writing-tos/';
+        var disqus_url = 'http://blog.craftsman-software.com/blog/2013/11/19/we-started-writing-tos/';
         var disqus_script = 'embed.js';
       
     (function () {
